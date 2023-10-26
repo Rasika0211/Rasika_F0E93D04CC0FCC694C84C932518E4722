@@ -1,0 +1,6 @@
+a=int(input("Enter a value for A:"))
+b=int(input("Enter a value for B:"))
+print("A=",a,"and b=",b)
+print("The a>b or a==b=",a>b or a==b)
+print("The a>b and a==b=",a>b and a==b)
+print("The not a>=b=", not a>=b)

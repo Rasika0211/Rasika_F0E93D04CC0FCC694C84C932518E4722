@@ -1,0 +1,7 @@
+def factorial(X):
+    if X==1:
+        return 1
+    else:
+        return X*factorial(X-1)
+f=factorial(5)
+print("factorial of 5 is",f)
